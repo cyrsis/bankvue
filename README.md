@@ -8,8 +8,8 @@
 - Online Tools to track transactions
 
 ## Layers
-- UI layer
-- Restful API
+- UI layer (Route, Components, State)
+- Restful API (Mongoose for MongoDB)
 - Data Access
 
 ## Stack
@@ -18,10 +18,14 @@ Vue.js
 Express.js
 Node.js
 Mongoose for MongoDB
+Vuetify
+axios -> Promise base http client  for API
+
 
 
 ## First thing First
 
+```bash
 `npm run dev` 
 or 
 `yarn run dev`
@@ -29,7 +33,27 @@ or
 
 -- Comfirm working
 
+##vue.axios
+`npm install -s axios` 
 
+## Parse incoming action
+`npm install -s body-parser'
+
+##morgan (request logger)
+`npm intall -s morgan`
+
+##nodemon
+`npm install -g nodemon`
+
+##cors (different localhost port)
+`npm install -g cors`
+
+##encry data
+`npm install -g bcrytjs`
+
+```
+
+## Make sure install mongodb community edi
 
 ## Build Setup
 
